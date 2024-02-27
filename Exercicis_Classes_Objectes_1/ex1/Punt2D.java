@@ -1,4 +1,4 @@
-package Exercicis_repo.Introduccion_Classes.Exercicis_Classes_Objectes_1.Exercicis_Classes_Objectes_1;
+
 
 public class Punt2D {
 	public double x;
@@ -14,22 +14,16 @@ public class Punt2D {
 	{
 		double distancia;
 
-		distancia = this.x - punt.x;
-		if (distancia >= 0)
-			return (distancia);
-		else
-			return (distancia * -1);
+		distancia = Math.abs(this.x - punt.x);
+		return (distancia);
 	}
 	
 	public double distanciaY(Punt2D punt)
 	{
 		double distancia;
 
-		distancia = this.y - punt.y;
-		if (distancia >= 0)
-			return (distancia);
-		else
-			return (distancia * -1);
+		distancia = Math.abs(this.y - punt.y);
+		return (distancia);
 	}
 
 	public double distanciaPunto(Punt2D punt)

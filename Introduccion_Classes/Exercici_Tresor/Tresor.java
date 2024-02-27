@@ -1,4 +1,4 @@
-package Sessio_2.Exercici_Tresor;
+package Exercicis_repo.Introduccion_Classes.Exercici_Tresor.Exercici_Tresor;
 
 public class Tresor {
 	public String descripcio;

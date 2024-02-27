@@ -1,4 +1,4 @@
-package Exercicis_repo.Introduccion_Classes.Exercicis_Classes_Objectes_1.Exercicis_Classes_Objectes_1;
+
 
 public class Test {
 	public static void main(String argv[])
