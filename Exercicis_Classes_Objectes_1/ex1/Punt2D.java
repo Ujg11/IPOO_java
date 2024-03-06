@@ -1,5 +1,4 @@
 
-
 public class Punt2D {
 	public double x;
 	public double y;
