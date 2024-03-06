@@ -42,5 +42,6 @@ public class Test {
 		{
 			System.out.println("Els punts més propers son p1(" + p1.getX() + "," + p1.getY() + ") i p3(" + p3.getX() + "," + p3.getY() + ")");
 		}
+		scan.close();
 	}
 }
